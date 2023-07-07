@@ -1,4 +1,6 @@
 // es7 shortcut=> rfec=> react template
+// raf=> instead of function, we get const 
+
 import React, { useEffect, useState } from "react";
 import "./Feed.css";
 import TweetBox from "./TweetBox";

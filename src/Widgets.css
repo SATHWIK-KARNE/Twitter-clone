@@ -1,6 +1,8 @@
 .widgets {
   flex: 0.3;
   overflow-y: scroll;
+  background-color: inherit;
+  color: inherit;
 }
 
 .widgets__input {
@@ -15,7 +17,7 @@
 
 .widgets__input > input {
   border: none;
-  background-color: var(--twitter-background);
+  background-color: var(--twitter-background) !important;
 }
 
 .widgets__searchIcon {
@@ -26,11 +28,18 @@
   margin-top: 15px;
   margin-left: 20px;
   padding: 20px;
-  background-color: #f5f8fa;
+  /* background-color: #f5f8fa; */
   border-radius: 20px;
+  background-color: inherit !important;
+  color: inherit !important;
 }
  
 .widgets__widgetContainer > h2 {
   font-size: 18px;
   font-weight: 800;
+}
+
+.widgets__widgetContainer > TwitterTimelineEmbed{
+  background-color: inherit !important;
+  color: inherit !important;
 }

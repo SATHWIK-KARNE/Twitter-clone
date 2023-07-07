@@ -10,7 +10,8 @@
   /* Home at top of feed should be sticky */
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: inherit;
+  color:inherit;
   z-index: 100;
   border: 1px solid var(--twitter-background);
   padding: 15px 20px;
